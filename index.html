@@ -3,9 +3,21 @@
     <head>
         <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=2">
         <meta charset="UTF-8">
+        <script src="https://cdn.bootcss.com/vue/2.4.4/vue.min.js"></script>
+        <script src="https://cdn.bootcss.com/axios/0.16.2/axios.min.js"></script>
         <title>RuiRui's GitHubBlog</title>
     </head>
     <body>
-        <h1>RuiRui's GitHubBlog</h1>
+        <div id="app">
+            {{message}}
+        </div>
     </body>
 </html>
+<script>
+    var vm = new Vue({
+        el: '#app',
+        data: {
+            message: 'hello github'
+        }
+    })
+</script>
