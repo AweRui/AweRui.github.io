@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=2">
+        <meta charset="UTF-8">
+        <style>
+            .rect {
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            width: 200px;
+            height: 200px;
+            border-radius: 5px;
+            border: 1px solid #cccccc;
+            font-size: 25px;
+            text-align: center;
+            line-height: 200px;
+            background-color: #bbbbbb;
+            opacity: 0.5;
+            animation: rotate 8s infinite linear;
+        }
+        @keyframes rotate {
+            from {-webkit-transform: rotateY(0);}
+            to {-webkit-transform: rotateY(-360deg);}
+        }
+        .back {
+            width: 300px;
+            height: 300px;
+            float: left;
+            background-size: cover;
+            /* transform: rotate3d(1,-1,0,60deg); */
+            /* transform: skew(30deg,10deg); */
+            /* transform: scale(1.1,1.1); */
+            transform: translate(200px,200px);
+        }
+        .transition {
+            height: 100px;
+            width: 100px;
+            transition: height 0.6s;
+            background-color: red;
+        }
+        .transition:hover {
+            height: 300px;
+        }
+        .transition2 {
+            width: 100px;
+            height: 100px;
+            background: red;
+            position: relative;
+            animation: first 5s infinite;
+        }
+        @keyframes first {
+            0% {background: red;left: 0px;top: 0px;}
+            25% {background: yellow;left: 200px;top: 0px;}
+            50% {background: blue;left: 200px;top: 200px;}
+            75% {background: green;left: 0px;top: 200px;}
+            100% {background: red;left: 0px;top: 0px;}
+        }
+        </style>
+    </head>
+    <body>
+        <div class="rect">前端入门资料</div>
+        
+    </body>
+</html>
