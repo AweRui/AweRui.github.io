@@ -6,10 +6,82 @@
     <description>Recent content on SaoRui&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 21 Oct 2019 23:06:24 +0800</lastBuildDate>
+    <lastBuildDate>Mon, 28 Oct 2019 11:14:42 +0800</lastBuildDate>
     
 	<atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Overview of Flutter</title>
+      <link>http://localhost:1313/post/overview-of-flutter/</link>
+      <pubDate>Mon, 28 Oct 2019 11:14:42 +0800</pubDate>
+      
+      <guid>http://localhost:1313/post/overview-of-flutter/</guid>
+      <description>占位</description>
+    </item>
+    
+    <item>
+      <title>Overview of React</title>
+      <link>http://localhost:1313/post/overview-of-react/</link>
+      <pubDate>Mon, 28 Oct 2019 11:14:34 +0800</pubDate>
+      
+      <guid>http://localhost:1313/post/overview-of-react/</guid>
+      <description>占位</description>
+    </item>
+    
+    <item>
+      <title>Overview of Vue</title>
+      <link>http://localhost:1313/post/overview-of-vue/</link>
+      <pubDate>Mon, 28 Oct 2019 11:14:20 +0800</pubDate>
+      
+      <guid>http://localhost:1313/post/overview-of-vue/</guid>
+      <description>占位</description>
+    </item>
+    
+    <item>
+      <title>Overview of Js</title>
+      <link>http://localhost:1313/post/overview-of-js/</link>
+      <pubDate>Mon, 28 Oct 2019 11:08:14 +0800</pubDate>
+      
+      <guid>http://localhost:1313/post/overview-of-js/</guid>
+      <description>为什么要关注它的整体？ 上来不要陷入技术细节，先搞清楚它的历史，它的定位，它解决了什么问题，它自己又有什么问题 学一门语言或技术，最好是先对它有</description>
+    </item>
+    
+    <item>
+      <title>URL 和 URI 的区别</title>
+      <link>http://localhost:1313/post/diff-of-url-and-uri/</link>
+      <pubDate>Mon, 28 Oct 2019 11:04:16 +0800</pubDate>
+      
+      <guid>http://localhost:1313/post/diff-of-url-and-uri/</guid>
+      <description>占位</description>
+    </item>
+    
+    <item>
+      <title>Limit of Learning</title>
+      <link>http://localhost:1313/post/limit-of-learning/</link>
+      <pubDate>Sat, 26 Oct 2019 11:49:13 +0800</pubDate>
+      
+      <guid>http://localhost:1313/post/limit-of-learning/</guid>
+      <description>不是所有的坑都有意义，很多坑都是毫无意义的，只会耽误你的时间。 新技术刚出来都是需要炮灰的，但你要想清楚，想不想自己当炮灰。 去关注最重要、最核</description>
+    </item>
+    
+    <item>
+      <title>真实世界，复杂的世界</title>
+      <link>http://localhost:1313/post/complex/</link>
+      <pubDate>Sat, 26 Oct 2019 10:32:00 +0800</pubDate>
+      
+      <guid>http://localhost:1313/post/complex/</guid>
+      <description>复杂而真实的世界 我们度过了那么长时间的混沌岁月，因此倍加珍惜稳定、珍惜确定性，但很遗憾的是，我们的追求之路看起来还有很远，我们要做的事还有很</description>
+    </item>
+    
+    <item>
+      <title>Interval 的作用域</title>
+      <link>http://localhost:1313/post/interval/</link>
+      <pubDate>Fri, 25 Oct 2019 14:12:45 +0800</pubDate>
+      
+      <guid>http://localhost:1313/post/interval/</guid>
+      <description>Interval 的作用域 确切地说不是定时器的作用域，而是定时器的回调函数的作用域，即定时器所执行的回调函数的作用域和定时器所在的作用域是不是一样的。 定时器</description>
+    </item>
     
     <item>
       <title>招聘真的挺难的...</title>
