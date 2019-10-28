@@ -6,10 +6,28 @@
     <description>Recent content on SaoRui&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 28 Oct 2019 11:14:42 +0800</lastBuildDate>
+    <lastBuildDate>Mon, 28 Oct 2019 14:34:51 +0800</lastBuildDate>
     
 	<atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>你为什么会害怕孤独？</title>
+      <link>http://localhost:1313/post/find-self/</link>
+      <pubDate>Mon, 28 Oct 2019 14:34:51 +0800</pubDate>
+      
+      <guid>http://localhost:1313/post/find-self/</guid>
+      <description>因为你怕死 为什么想写这个问题，因为经常会见到一个说法，说现在的人越来越孤单，这似乎是真的，我平时也有这样的感觉。 但问题来了，这话似乎还有另一</description>
+    </item>
+    
+    <item>
+      <title>Recommended Reading</title>
+      <link>http://localhost:1313/post/recommended-reading/</link>
+      <pubDate>Mon, 28 Oct 2019 14:03:53 +0800</pubDate>
+      
+      <guid>http://localhost:1313/post/recommended-reading/</guid>
+      <description>值得推荐的好书、好文章、好网站</description>
+    </item>
     
     <item>
       <title>Overview of Flutter</title>
