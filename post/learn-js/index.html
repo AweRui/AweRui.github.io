@@ -16,7 +16,7 @@
 <meta name="apple-mobile-web-app-status-bar-style" content="#f8f5ec">
 
 
-<meta name="author" content="SaoRui" /><meta name="description" content="为什么要关注它的整体？ 上来不要陷入技术细节，先搞清楚它的历史，它的定位，它解决了什么问题，它自己又有什么问题 学一门语言或技术，最好是先对它有" /><meta name="keywords" content="Hugo, theme, even" />
+<meta name="author" content="SaoRui" /><meta name="description" content="JS 为什么要关注它的整体？ 上来不要陷入技术细节，先搞清楚它的历史，它的定位，它解决了什么问题，它自己又有什么问题 学一门语言或技术，最好是先对它" /><meta name="keywords" content="Hugo, theme, even" />
 
 
 
@@ -39,25 +39,25 @@
 
 
 <meta property="og:title" content="Learn Js" />
-<meta property="og:description" content="为什么要关注它的整体？ 上来不要陷入技术细节，先搞清楚它的历史，它的定位，它解决了什么问题，它自己又有什么问题 学一门语言或技术，最好是先对它有" />
+<meta property="og:description" content="JS 为什么要关注它的整体？ 上来不要陷入技术细节，先搞清楚它的历史，它的定位，它解决了什么问题，它自己又有什么问题 学一门语言或技术，最好是先对它" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="http://localhost:1313/post/learn-js/" />
 <meta property="article:published_time" content="2019-10-28T11:08:14+08:00" />
 <meta property="article:modified_time" content="2019-10-28T11:08:14+08:00" />
 <meta itemprop="name" content="Learn Js">
-<meta itemprop="description" content="为什么要关注它的整体？ 上来不要陷入技术细节，先搞清楚它的历史，它的定位，它解决了什么问题，它自己又有什么问题 学一门语言或技术，最好是先对它有">
+<meta itemprop="description" content="JS 为什么要关注它的整体？ 上来不要陷入技术细节，先搞清楚它的历史，它的定位，它解决了什么问题，它自己又有什么问题 学一门语言或技术，最好是先对它">
 
 
 <meta itemprop="datePublished" content="2019-10-28T11:08:14&#43;08:00" />
 <meta itemprop="dateModified" content="2019-10-28T11:08:14&#43;08:00" />
-<meta itemprop="wordCount" content="409">
+<meta itemprop="wordCount" content="411">
 
 
 
 <meta itemprop="keywords" content="" />
 <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Learn Js"/>
-<meta name="twitter:description" content="为什么要关注它的整体？ 上来不要陷入技术细节，先搞清楚它的历史，它的定位，它解决了什么问题，它自己又有什么问题 学一门语言或技术，最好是先对它有"/>
+<meta name="twitter:description" content="JS 为什么要关注它的整体？ 上来不要陷入技术细节，先搞清楚它的历史，它的定位，它解决了什么问题，它自己又有什么问题 学一门语言或技术，最好是先对它"/>
 
 <!--[if lte IE 9]>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
@@ -134,9 +134,13 @@
   <div class="post-toc-content always-active">
     <nav id="TableOfContents">
 <ul>
+<li><a href="#js">JS</a>
+<ul>
 <li><a href="#为什么要关注它的整体">为什么要关注它的整体？</a></li>
 <li><a href="#我们都觉得-this-比较乱-那么老问题来了-为什么要这么设计呢">我们都觉得 this 比较乱，那么老问题来了，为什么要这么设计呢？</a></li>
 <li><a href="#如何理解-js-中的一切皆对象">如何理解 JS 中的一切皆对象</a></li>
+</ul></li>
+<li><a href="#node-js">node.js</a></li>
 </ul>
 </nav>
   </div>
@@ -144,7 +148,9 @@
     <div class="post-content">
       
 
-<h1 id="为什么要关注它的整体">为什么要关注它的整体？</h1>
+<h1 id="js">JS</h1>
+
+<h2 id="为什么要关注它的整体">为什么要关注它的整体？</h2>
 
 <p>上来不要陷入技术细节，先搞清楚它的历史，它的定位，它解决了什么问题，它自己又有什么问题</p>
 
@@ -152,11 +158,13 @@
 
 <p>过早地陷入技术细节，只会让自己脑子一片混乱，学不到关键</p>
 
-<h1 id="我们都觉得-this-比较乱-那么老问题来了-为什么要这么设计呢">我们都觉得 this 比较乱，那么老问题来了，为什么要这么设计呢？</h1>
+<h2 id="我们都觉得-this-比较乱-那么老问题来了-为什么要这么设计呢">我们都觉得 this 比较乱，那么老问题来了，为什么要这么设计呢？</h2>
 
 <p>原因和 JS 里面对象的数据结构有关，因为在 JS 里一切皆对象，所以函数经常是放在一个对象里，作为对象属性的值来存储的，并且这个值是一个地址，在使用时会先查找到这个对象的地址，再从这个地址里面找到原始的对象并返回这个属性的值，而函数是作为属性的值来保存的，在保存时就是一个地址，所以函数可以在不同的上下文去执行，但不同上下文有不同的环境，你的 name 和我的 name 不一样，那如何来表示这个东西呢，这时就需要 this 了，它的设计目的就是在函数体的内部去指代函数被调用时的环境，以此来实现在不同的环境中去处理同一个表达</p>
 
-<h1 id="如何理解-js-中的一切皆对象">如何理解 JS 中的一切皆对象</h1>
+<h2 id="如何理解-js-中的一切皆对象">如何理解 JS 中的一切皆对象</h2>
+
+<h1 id="node-js">node.js</h1>
 
     </div>
 
