@@ -23,13 +23,6 @@
   </url>
   
   <url>
-    <loc>http://localhost:1313/post/find-self/</loc>
-    <lastmod>2019-10-28T14:34:51+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>http://localhost:1313/post/recommended-reading/</loc>
     <lastmod>2019-10-28T14:03:53+08:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -39,13 +32,6 @@
   <url>
     <loc>http://localhost:1313/post/learn-js/</loc>
     <lastmod>2019-10-28T11:08:14+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>http://localhost:1313/post/interval/</loc>
-    <lastmod>2019-10-25T14:12:45+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
