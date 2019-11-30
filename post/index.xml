@@ -6,10 +6,19 @@
     <description>Recent content in Posts on SaoRui&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 06 Nov 2019 19:48:58 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 29 Nov 2019 14:40:20 +0800</lastBuildDate>
     
 	<atom:link href="http://localhost:1313/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Learn Python</title>
+      <link>http://localhost:1313/post/learn-python/</link>
+      <pubDate>Fri, 29 Nov 2019 14:40:20 +0800</pubDate>
+      
+      <guid>http://localhost:1313/post/learn-python/</guid>
+      <description>做事之前一定要明确为什么要做这件事，这样才能让自己的行为有支持，才能持久下去，不然就是三秒的热情，还不如不做这件事，那么对于从没接触过编程的</description>
+    </item>
     
     <item>
       <title>Daily Record</title>
