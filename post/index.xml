@@ -6,10 +6,46 @@
     <description>Recent content in Posts on SaoRui&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 29 Nov 2019 14:40:20 +0800</lastBuildDate>
+    <lastBuildDate>Sat, 28 Dec 2019 16:43:05 +0800</lastBuildDate>
     
 	<atom:link href="http://localhost:1313/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Company Not Home</title>
+      <link>http://localhost:1313/post/company-not-home/</link>
+      <pubDate>Sat, 28 Dec 2019 16:43:05 +0800</pubDate>
+      
+      <guid>http://localhost:1313/post/company-not-home/</guid>
+      <description>初入社会，这也许是我今年关于技术外最大的思想收获。 起这么个标题并不是想诋毁什么，只是在毫无褒贬地陈述一个原则。</description>
+    </item>
+    
+    <item>
+      <title>Learn Electron</title>
+      <link>http://localhost:1313/post/learn-electron/</link>
+      <pubDate>Fri, 27 Dec 2019 10:15:34 +0800</pubDate>
+      
+      <guid>http://localhost:1313/post/learn-electron/</guid>
+      <description>人要善于挖坑，因为挖着挖着说不定自己就把一两个坑填上了&amp;hellip;&amp;hellip;</description>
+    </item>
+    
+    <item>
+      <title>Learn Git</title>
+      <link>http://localhost:1313/post/learn-git/</link>
+      <pubDate>Mon, 16 Dec 2019 16:14:01 +0800</pubDate>
+      
+      <guid>http://localhost:1313/post/learn-git/</guid>
+      <description>Git 常用命令速查</description>
+    </item>
+    
+    <item>
+      <title>JS 优秀第三方库收藏</title>
+      <link>http://localhost:1313/post/lib-of-js/</link>
+      <pubDate>Tue, 10 Dec 2019 11:38:13 +0800</pubDate>
+      
+      <guid>http://localhost:1313/post/lib-of-js/</guid>
+      <description>有个涉及到时间转换的需求，接到需求后就闷头做了起来，快做完了才发现还有 moment 这个库，停下来一想，前端经过这么多年的发展，还有什么需求是前人没遇到</description>
+    </item>
     
     <item>
       <title>Learn Python</title>
@@ -21,12 +57,48 @@
     </item>
     
     <item>
+      <title>Learn Linux</title>
+      <link>http://localhost:1313/post/learn-linux/</link>
+      <pubDate>Fri, 29 Nov 2019 14:33:26 +0800</pubDate>
+      
+      <guid>http://localhost:1313/post/learn-linux/</guid>
+      <description>Linux 在编程中还是基石一样的存在，无论前端还是后端，多学一点总没错。 在 Linux 中，查找文件中特定内容：grep , find 常用命令速查</description>
+    </item>
+    
+    <item>
+      <title>Learn Css</title>
+      <link>http://localhost:1313/post/learn-css/</link>
+      <pubDate>Fri, 29 Nov 2019 14:14:06 +0800</pubDate>
+      
+      <guid>http://localhost:1313/post/learn-css/</guid>
+      <description>web 世界就是这样，每当你觉得厌倦时，总会发现还有很多值得钻研的知识，这有时令人崩溃，有时却令人欣喜。 CSS 变量 记得之前 CSS 是不支持变量的，这次在查资</description>
+    </item>
+    
+    <item>
+      <title>Front-end Alg</title>
+      <link>http://localhost:1313/post/alg/</link>
+      <pubDate>Tue, 19 Nov 2019 21:39:54 +0800</pubDate>
+      
+      <guid>http://localhost:1313/post/alg/</guid>
+      <description>很多东西都是有需求时才有用，当前端只是写页面效果时，算法或许没什么用，但随着前端工程变得越来越复杂，这里的复杂体现在两个方面，一是前端开始处</description>
+    </item>
+    
+    <item>
       <title>Daily Record</title>
       <link>http://localhost:1313/post/daily-record/</link>
       <pubDate>Wed, 06 Nov 2019 19:48:58 +0800</pubDate>
       
       <guid>http://localhost:1313/post/daily-record/</guid>
       <description>1911 191106 发现使用这个博客做记录还挺不错的，直接在 markdown 里写好，用#做区分，会自动在右侧做出摘要，可以点击跳转阅读，体验也不错，不用每天写一点就新建一</description>
+    </item>
+    
+    <item>
+      <title>你为什么会害怕孤独？</title>
+      <link>http://localhost:1313/post/find-self/</link>
+      <pubDate>Mon, 28 Oct 2019 14:34:51 +0800</pubDate>
+      
+      <guid>http://localhost:1313/post/find-self/</guid>
+      <description>因为你怕死 为什么想写这个问题，因为经常会见到一个说法，说现在的人越来越孤单，这似乎是真的，我平时也有这样的感觉。 但问题来了，这话似乎还有另一</description>
     </item>
     
     <item>

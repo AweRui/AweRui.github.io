@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <title>Recommended Reading - SaoRui&#39;s Blog</title>
+  <title>Front-end Alg - SaoRui&#39;s Blog</title>
   <meta name="renderer" content="webkit" />
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
 
@@ -16,7 +16,7 @@
 <meta name="apple-mobile-web-app-status-bar-style" content="#f8f5ec">
 
 
-<meta name="author" content="SaoRui" /><meta name="description" content="进击的智人——河森堡 我常常推荐的一种了解现实的方法是去读历史，了解历史往往能更好地了解现在，这是在文化方面；而我们的历史除了常说的“上下五千" /><meta name="keywords" content="Hugo, theme, even" />
+<meta name="author" content="SaoRui" /><meta name="description" content="很多东西都是有需求时才有用，当前端只是写页面效果时，算法或许没什么用，但随着前端工程变得越来越复杂，这里的复杂体现在两个方面，一是前端开始处" /><meta name="keywords" content="Hugo, theme, even" />
 
 
 
@@ -26,7 +26,7 @@
 <meta name="generator" content="Hugo 0.58.0 with theme even" />
 
 
-<link rel="canonical" href="http://localhost:1313/post/recommended-reading/" />
+<link rel="canonical" href="http://localhost:1313/post/alg/" />
 <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -38,26 +38,26 @@
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.1.20/dist/jquery.fancybox.min.css" integrity="sha256-7TyXnr2YU040zfSP+rEcz29ggW4j56/ujTPwjMzyqFY=" crossorigin="anonymous">
 
 
-<meta property="og:title" content="Recommended Reading" />
-<meta property="og:description" content="进击的智人——河森堡 我常常推荐的一种了解现实的方法是去读历史，了解历史往往能更好地了解现在，这是在文化方面；而我们的历史除了常说的“上下五千" />
+<meta property="og:title" content="Front-end Alg" />
+<meta property="og:description" content="很多东西都是有需求时才有用，当前端只是写页面效果时，算法或许没什么用，但随着前端工程变得越来越复杂，这里的复杂体现在两个方面，一是前端开始处" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="http://localhost:1313/post/recommended-reading/" />
-<meta property="article:published_time" content="2019-10-28T14:03:53+08:00" />
-<meta property="article:modified_time" content="2019-10-28T14:03:53+08:00" />
-<meta itemprop="name" content="Recommended Reading">
-<meta itemprop="description" content="进击的智人——河森堡 我常常推荐的一种了解现实的方法是去读历史，了解历史往往能更好地了解现在，这是在文化方面；而我们的历史除了常说的“上下五千">
+<meta property="og:url" content="http://localhost:1313/post/alg/" />
+<meta property="article:published_time" content="2019-11-19T21:39:54+08:00" />
+<meta property="article:modified_time" content="2019-11-19T21:39:54+08:00" />
+<meta itemprop="name" content="Front-end Alg">
+<meta itemprop="description" content="很多东西都是有需求时才有用，当前端只是写页面效果时，算法或许没什么用，但随着前端工程变得越来越复杂，这里的复杂体现在两个方面，一是前端开始处">
 
 
-<meta itemprop="datePublished" content="2019-10-28T14:03:53&#43;08:00" />
-<meta itemprop="dateModified" content="2019-10-28T14:03:53&#43;08:00" />
-<meta itemprop="wordCount" content="344">
+<meta itemprop="datePublished" content="2019-11-19T21:39:54&#43;08:00" />
+<meta itemprop="dateModified" content="2019-11-19T21:39:54&#43;08:00" />
+<meta itemprop="wordCount" content="648">
 
 
 
 <meta itemprop="keywords" content="" />
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Recommended Reading"/>
-<meta name="twitter:description" content="进击的智人——河森堡 我常常推荐的一种了解现实的方法是去读历史，了解历史往往能更好地了解现在，这是在文化方面；而我们的历史除了常说的“上下五千"/>
+<meta name="twitter:title" content="Front-end Alg"/>
+<meta name="twitter:description" content="很多东西都是有需求时才有用，当前端只是写页面效果时，算法或许没什么用，但随着前端工程变得越来越复杂，这里的复杂体现在两个方面，一是前端开始处"/>
 
 <!--[if lte IE 9]>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
@@ -120,10 +120,10 @@
           <article class="post">
     
     <header class="post-header">
-      <h1 class="post-title">Recommended Reading</h1>
+      <h1 class="post-title">Front-end Alg</h1>
 
       <div class="post-meta">
-        <span class="post-time"> 2019-10-28 </span>
+        <span class="post-time"> 2019-11-19 </span>
         
         
       </div>
@@ -132,21 +132,48 @@
     <div class="post-toc" id="post-toc">
   <h2 class="post-toc-title">Contents</h2>
   <div class="post-toc-content always-active">
-    
+    <nav id="TableOfContents">
+<ul>
+<li><a href="#基础">基础</a>
+<ul>
+<li><a href="#复杂度分析-得有个东西来衡量一个算法的好坏">复杂度分析：得有个东西来衡量一个算法的好坏</a></li>
+<li><a href="#数组-为什么许多编程语言中数组都从-0-开始编号">数组：为什么许多编程语言中数组都从 0 开始编号？</a>
+<ul>
+<li><a href="#线性表-一种数据排成一条线一样的结构">线性表：一种数据排成一条线一样的结构</a></li>
+</ul></li>
+</ul></li>
+</ul>
+</nav>
   </div>
 </div>
     <div class="post-content">
-      <blockquote>
-<p>进击的智人——河森堡</p>
-</blockquote>
+      
 
-<p>我常常推荐的一种了解现实的方法是去读历史，了解历史往往能更好地了解现在，这是在文化方面；而我们的历史除了常说的“上下五千年”，还有另一种历史，那就是我们这具肉身的历史，关于我们为何从树上跳下、如何在其他动物嘴下逃生、如何超越其他动物的历史，以及这些历史如何历经万年仍在影响我们的今天</p>
+<p>很多东西都是有需求时才有用，当前端只是写页面效果时，算法或许没什么用，但随着前端工程变得越来越复杂，这里的复杂体现在两个方面，一是前端开始处理一些以前需要后端去处理的数据，前端在变得越来越复杂；二是越来越高的效果要求，以前前端只要做个静态页面就行，后来需要做动态页面，再后来则是大量交互，这些都使得前端在变得越来越重。为了应对这种情况，一方面是前端工程化，这是工具方面，另一方面就是我们自己写的代码了，对数据的处理够不够高效等等，都需要我们去处理。如果没有高效的算法来组织我们的代码，那么我们势必难以继续下去，所以前端学习算法是非常必要的。</p>
 
-<blockquote>
-<p>春秋大义 &ndash; 熊逸</p>
-</blockquote>
+<p>本文重拾已购的专栏《数据结构与算法之美》，在此记录自己的学习过程，一为有个记录，二为督促自己。</p>
 
-<p>一个问题是新问题还是老问题？这个问题在编程界问最合适，因为除了新技术、新语言，编程新手遇到的大多数“新问题”都是老问题，都已经被历史上无数人遇到过，这时候需要做的就是用好搜索引擎，去搜索到这些老问题，总会有答案的。同样的情况在文化中也存在，我们至今还在争论的很多事，在历史上已经被争论了很多遍，我们很多时候只是在重复前人的讨论而已，要不怎么有人说人类的本质是“复读机”呢？</p>
+<h1 id="基础">基础</h1>
+
+<h2 id="复杂度分析-得有个东西来衡量一个算法的好坏">复杂度分析：得有个东西来衡量一个算法的好坏</h2>
+
+<h2 id="数组-为什么许多编程语言中数组都从-0-开始编号">数组：为什么许多编程语言中数组都从 0 开始编号？</h2>
+
+<p>数组从 0 开始对于初学者还是蛮奇怪的，毕竟正常生活中很多事物都是从 1 开始的。</p>
+
+<p>以前以为数据结构这种“高大上”的东西只有很牛逼的项目里才有，现在才知道数据结构存在于很多地方，就连我们平时使用的脚本语言里也包含大量的数据结构。</p>
+
+<p>先来看数组的定义，数组是一种线性表数据结构。</p>
+
+<p>它用一组连续的内存空间，来存储一组具有相同类型的数据。</p>
+
+<p>从定义里的几个关键词可以更准确地了解数组。</p>
+
+<h3 id="线性表-一种数据排成一条线一样的结构">线性表：一种数据排成一条线一样的结构</h3>
+
+<p>每个线性表上的数据最多只有前后两个方向。除了数组，链表、队列、栈等也是线性表结构。</p>
+
+<p>而与它对立的结构就是非线性表，比如二叉树、堆、图等，因为在这些结构中数据并不是简单的前后关系。</p>
 
     </div>
 
@@ -158,7 +185,7 @@
   <p class="copyright-item">
     <span class="item-title">LastMod</span>
     <span class="item-content">
-        2019-10-28
+        2019-11-19
         
     </span>
   </p>
@@ -168,13 +195,13 @@
 <footer class="post-footer">
       
       <nav class="post-nav">
-        <a class="prev" href="/post/find-self/">
+        <a class="prev" href="/post/learn-css/">
             <i class="iconfont icon-left"></i>
-            <span class="prev-text nav-default">你为什么会害怕孤独？</span>
+            <span class="prev-text nav-default">Learn Css</span>
             <span class="prev-text nav-mobile">Prev</span>
           </a>
-        <a class="next" href="/post/interview/">
-            <span class="next-text nav-default">招聘真的挺难的...</span>
+        <a class="next" href="/post/daily-record/">
+            <span class="next-text nav-default">Daily Record</span>
             <span class="next-text nav-mobile">Next</span>
             <i class="iconfont icon-right"></i>
           </a>
