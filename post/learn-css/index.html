@@ -50,7 +50,7 @@
 
 <meta itemprop="datePublished" content="2019-11-29T14:14:06&#43;08:00" />
 <meta itemprop="dateModified" content="2019-11-29T14:14:06&#43;08:00" />
-<meta itemprop="wordCount" content="88">
+<meta itemprop="wordCount" content="407">
 
 
 
@@ -135,6 +135,7 @@
     <nav id="TableOfContents">
 <ul>
 <li><a href="#css-变量">CSS 变量</a></li>
+<li><a href="#自定义-switch-button">自定义 switch button</a></li>
 </ul>
 </nav>
   </div>
@@ -147,6 +148,28 @@
 <h1 id="css-变量">CSS 变量</h1>
 
 <p>记得之前 CSS 是不支持变量的，这次在查资料的过程中才发现现在 CSS 已经支持变量了</p>
+
+<p>CSS 变量的作用域就是它所在的选择器的有效范围，由于这个原因，全局变量通常放在根元素 :root 里面，确保任何选择器都可以读取它们，如果实在小程序里则是放在 page {} 里面</p>
+
+<p>CSS 变量还可以和响应式布局结合，如1200节点定义一个变量，某属性使用这个变量，到 550 节点时再改变这个变量的值，就可以完成部分响应式</p>
+
+<p>但不是所有浏览器都支持 CSS 变量，对于不支持的浏览器，可以正常写一个属性值，然后在正常属性值的下面使用变量</p>
+
+<p>js 设置变量: document.body.style.setProperty(&lsquo;&ndash;xxx&rsquo;, &lsquo;xxx&rsquo;)</p>
+
+<p>js 读取变量: document.body.style.getPropertyValue(&lsquo;&ndash;yyy&rsquo;).trim()</p>
+
+<p>js 删除变量: document.body.style.removeProperty(&lsquo;&ndash;xxx&rsquo;)</p>
+
+<p>通过将无效语句写在 CSS 变量里，CSS 变量提供了 js 和 css 通信的一种途径（虽然不知道有什么用）</p>
+
+<h1 id="自定义-switch-button">自定义 switch button</h1>
+
+<p>将原有的 input 标签隐藏掉，使用自定义的标签包裹住</p>
+
+<p>圆球采用 before 伪类，移动采用 X 轴平移</p>
+
+<p>状态的切换采用 input 标签的 checked 状态，这是 CSS 自带的</p>
 
     </div>
 
@@ -216,7 +239,7 @@
   <span class="copyright-year">
     &copy; 
     2017 - 
-    2019
+    2020
     <span class="heart">
       <i class="iconfont icon-heart"></i>
     </span>

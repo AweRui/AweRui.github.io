@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <title>Learn Linux - SaoRui&#39;s Blog</title>
+  <title>Learn Http - SaoRui&#39;s Blog</title>
   <meta name="renderer" content="webkit" />
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
 
@@ -16,7 +16,7 @@
 <meta name="apple-mobile-web-app-status-bar-style" content="#f8f5ec">
 
 
-<meta name="author" content="SaoRui" /><meta name="description" content="Linux 在编程中还是基石一样的存在，无论前端还是后端，多学一点总没错。 在 Linux 中，查找文件中特定内容：grep , find 常用命令速查 screen" /><meta name="keywords" content="Hugo, theme, even" />
+<meta name="author" content="SaoRui" /><meta name="description" content="HTTP 历史 很多事情就是这样，面对缩写时会觉得好难理解，一旦把晦涩的缩写展开就会发现里面隐藏的秘密。 HTTP 的中文全称为超文本传输协议，从名字你就能看出" /><meta name="keywords" content="Hugo, theme, even" />
 
 
 
@@ -26,7 +26,7 @@
 <meta name="generator" content="Hugo 0.58.0 with theme even" />
 
 
-<link rel="canonical" href="http://localhost:1313/post/learn-linux/" />
+<link rel="canonical" href="http://localhost:1313/post/learn-http/" />
 <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -38,26 +38,26 @@
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.1.20/dist/jquery.fancybox.min.css" integrity="sha256-7TyXnr2YU040zfSP+rEcz29ggW4j56/ujTPwjMzyqFY=" crossorigin="anonymous">
 
 
-<meta property="og:title" content="Learn Linux" />
-<meta property="og:description" content="Linux 在编程中还是基石一样的存在，无论前端还是后端，多学一点总没错。 在 Linux 中，查找文件中特定内容：grep , find 常用命令速查 screen" />
+<meta property="og:title" content="Learn Http" />
+<meta property="og:description" content="HTTP 历史 很多事情就是这样，面对缩写时会觉得好难理解，一旦把晦涩的缩写展开就会发现里面隐藏的秘密。 HTTP 的中文全称为超文本传输协议，从名字你就能看出" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="http://localhost:1313/post/learn-linux/" />
-<meta property="article:published_time" content="2019-11-29T14:33:26+08:00" />
-<meta property="article:modified_time" content="2019-11-29T14:33:26+08:00" />
-<meta itemprop="name" content="Learn Linux">
-<meta itemprop="description" content="Linux 在编程中还是基石一样的存在，无论前端还是后端，多学一点总没错。 在 Linux 中，查找文件中特定内容：grep , find 常用命令速查 screen">
+<meta property="og:url" content="http://localhost:1313/post/learn-http/" />
+<meta property="article:published_time" content="2019-12-16T16:14:10+08:00" />
+<meta property="article:modified_time" content="2019-12-16T16:14:10+08:00" />
+<meta itemprop="name" content="Learn Http">
+<meta itemprop="description" content="HTTP 历史 很多事情就是这样，面对缩写时会觉得好难理解，一旦把晦涩的缩写展开就会发现里面隐藏的秘密。 HTTP 的中文全称为超文本传输协议，从名字你就能看出">
 
 
-<meta itemprop="datePublished" content="2019-11-29T14:33:26&#43;08:00" />
-<meta itemprop="dateModified" content="2019-11-29T14:33:26&#43;08:00" />
-<meta itemprop="wordCount" content="59">
+<meta itemprop="datePublished" content="2019-12-16T16:14:10&#43;08:00" />
+<meta itemprop="dateModified" content="2019-12-16T16:14:10&#43;08:00" />
+<meta itemprop="wordCount" content="215">
 
 
 
 <meta itemprop="keywords" content="" />
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Learn Linux"/>
-<meta name="twitter:description" content="Linux 在编程中还是基石一样的存在，无论前端还是后端，多学一点总没错。 在 Linux 中，查找文件中特定内容：grep , find 常用命令速查 screen"/>
+<meta name="twitter:title" content="Learn Http"/>
+<meta name="twitter:description" content="HTTP 历史 很多事情就是这样，面对缩写时会觉得好难理解，一旦把晦涩的缩写展开就会发现里面隐藏的秘密。 HTTP 的中文全称为超文本传输协议，从名字你就能看出"/>
 
 <!--[if lte IE 9]>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
@@ -120,10 +120,10 @@
           <article class="post">
     
     <header class="post-header">
-      <h1 class="post-title">Learn Linux</h1>
+      <h1 class="post-title">Learn Http</h1>
 
       <div class="post-meta">
-        <span class="post-time"> 2019-11-29 </span>
+        <span class="post-time"> 2019-12-16 </span>
         
         
       </div>
@@ -134,7 +134,9 @@
   <div class="post-toc-content always-active">
     <nav id="TableOfContents">
 <ul>
-<li><a href="#常用命令速查">常用命令速查</a></li>
+<li><a href="#http-历史">HTTP 历史</a></li>
+<li><a href="#http-基础">HTTP 基础</a></li>
+<li><a href="#http-进阶">HTTP 进阶</a></li>
 </ul>
 </nav>
   </div>
@@ -142,13 +144,17 @@
     <div class="post-content">
       
 
-<p>Linux 在编程中还是基石一样的存在，无论前端还是后端，多学一点总没错。</p>
+<h1 id="http-历史">HTTP 历史</h1>
 
-<p>在 Linux 中，查找文件中特定内容：grep , find</p>
+<p>很多事情就是这样，面对缩写时会觉得好难理解，一旦把晦涩的缩写展开就会发现里面隐藏的秘密。</p>
 
-<h1 id="常用命令速查">常用命令速查</h1>
+<p>HTTP 的中文全称为超文本传输协议，从名字你就能看出来，这就是个传输文本的协议，重点在文本，这就是如今人们说 HTTP 比较慢的原因，相比于传输二进制数据，传输文本当然会慢不少。</p>
 
-<p>screen</p>
+<p>但这也怪不得 HTTP，毕竟人家刚被设计出来时就是用来传输文本的，而且也没想到后来会发展得这么快，需要传输的数据量越来越多，图片、音频、视频都用它来传输，能不慢吗？</p>
+
+<h1 id="http-基础">HTTP 基础</h1>
+
+<h1 id="http-进阶">HTTP 进阶</h1>
 
     </div>
 
@@ -160,7 +166,7 @@
   <p class="copyright-item">
     <span class="item-title">LastMod</span>
     <span class="item-content">
-        2019-11-29
+        2019-12-16
         
     </span>
   </p>
@@ -170,13 +176,13 @@
 <footer class="post-footer">
       
       <nav class="post-nav">
-        <a class="prev" href="/post/learn-python/">
+        <a class="prev" href="/post/learn-electron/">
             <i class="iconfont icon-left"></i>
-            <span class="prev-text nav-default">Learn Python</span>
+            <span class="prev-text nav-default">Learn Electron</span>
             <span class="prev-text nav-mobile">Prev</span>
           </a>
-        <a class="next" href="/post/learn-css/">
-            <span class="next-text nav-default">Learn Css</span>
+        <a class="next" href="/post/learn-git/">
+            <span class="next-text nav-default">Learn Git</span>
             <span class="next-text nav-mobile">Next</span>
             <i class="iconfont icon-right"></i>
           </a>

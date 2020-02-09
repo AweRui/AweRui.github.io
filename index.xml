@@ -6,10 +6,46 @@
     <description>Recent content on SaoRui&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 28 Dec 2019 16:43:05 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 12 Jan 2020 21:58:29 +0800</lastBuildDate>
     
 	<atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>前端性能优化</title>
+      <link>http://localhost:1313/post/front-end-performance-optimization/</link>
+      <pubDate>Sun, 12 Jan 2020 21:58:29 +0800</pubDate>
+      
+      <guid>http://localhost:1313/post/front-end-performance-optimization/</guid>
+      <description>前端性能优化也是很重要的一件事，在此立个 Flag 记录下来自己的前端性能优化之旅～</description>
+    </item>
+    
+    <item>
+      <title>Why to Write Blog</title>
+      <link>http://localhost:1313/post/why-to-write-blog/</link>
+      <pubDate>Sat, 28 Dec 2019 17:34:49 +0800</pubDate>
+      
+      <guid>http://localhost:1313/post/why-to-write-blog/</guid>
+      <description>为什么写博客呢？ 说个大实话，我们当中的大多数人都是普通人，可能过完一辈子也做不出什么能让人们记住的事，最终是轻飘飘来，轻飘飘去，在这世界留不</description>
+    </item>
+    
+    <item>
+      <title>Learn Flutter</title>
+      <link>http://localhost:1313/post/learn-flutter/</link>
+      <pubDate>Sat, 28 Dec 2019 17:03:50 +0800</pubDate>
+      
+      <guid>http://localhost:1313/post/learn-flutter/</guid>
+      <description>都说现在是大前端时代，什么端都能做，自然是什么端都要学习下，能跨平台开发 app 的好东西当然不能错过，再立一个 Flag ！ 搭建环境 回想起自己大学时想学 Ja</description>
+    </item>
+    
+    <item>
+      <title>Learn Swift</title>
+      <link>http://localhost:1313/post/learn-swift/</link>
+      <pubDate>Sat, 28 Dec 2019 17:03:40 +0800</pubDate>
+      
+      <guid>http://localhost:1313/post/learn-swift/</guid>
+      <description>苹果最近更新了 swiftUI ，看起来很不错，使得 IOS 开发轻松了不少，而开发一款 app 也是我的一个小小计划，这个计划虽然不知道什么时候可以开始做，但 Flag 一定要先立</description>
+    </item>
     
     <item>
       <title>Company Not Home</title>
@@ -27,6 +63,15 @@
       
       <guid>http://localhost:1313/post/learn-electron/</guid>
       <description>人要善于挖坑，因为挖着挖着说不定自己就把一两个坑填上了&amp;hellip;&amp;hellip;</description>
+    </item>
+    
+    <item>
+      <title>Learn Http</title>
+      <link>http://localhost:1313/post/learn-http/</link>
+      <pubDate>Mon, 16 Dec 2019 16:14:10 +0800</pubDate>
+      
+      <guid>http://localhost:1313/post/learn-http/</guid>
+      <description>HTTP 历史 很多事情就是这样，面对缩写时会觉得好难理解，一旦把晦涩的缩写展开就会发现里面隐藏的秘密。 HTTP 的中文全称为超文本传输协议，从名字你就能看出</description>
     </item>
     
     <item>
@@ -62,7 +107,7 @@
       <pubDate>Fri, 29 Nov 2019 14:33:26 +0800</pubDate>
       
       <guid>http://localhost:1313/post/learn-linux/</guid>
-      <description>Linux 在编程中还是基石一样的存在，无论前端还是后端，多学一点总没错。 在 Linux 中，查找文件中特定内容：grep , find 常用命令速查</description>
+      <description>Linux 在编程中还是基石一样的存在，无论前端还是后端，多学一点总没错。 在 Linux 中，查找文件中特定内容：grep , find 常用命令速查 screen</description>
     </item>
     
     <item>
@@ -84,12 +129,12 @@
     </item>
     
     <item>
-      <title>Daily Record</title>
-      <link>http://localhost:1313/post/daily-record/</link>
-      <pubDate>Wed, 06 Nov 2019 19:48:58 +0800</pubDate>
+      <title>Learn Miniprogram</title>
+      <link>http://localhost:1313/post/learn-miniprogram/</link>
+      <pubDate>Sat, 09 Nov 2019 21:49:39 +0800</pubDate>
       
-      <guid>http://localhost:1313/post/daily-record/</guid>
-      <description>1911 191106 发现使用这个博客做记录还挺不错的，直接在 markdown 里写好，用#做区分，会自动在右侧做出摘要，可以点击跳转阅读，体验也不错，不用每天写一点就新建一</description>
+      <guid>http://localhost:1313/post/learn-miniprogram/</guid>
+      <description>小程序的地位 对于中国公司来说，很少有小程序这么好的跨端平台了。微信的用户几乎覆盖每一个中国人，这使得小程序的可覆盖人群也几乎达到 13 亿人 及早使</description>
     </item>
     
     <item>
@@ -108,6 +153,15 @@
       
       <guid>http://localhost:1313/post/recommended-reading/</guid>
       <description>进击的智人——河森堡 我常常推荐的一种了解现实的方法是去读历史，了解历史往往能更好地了解现在，这是在文化方面；而我们的历史除了常说的“上下五千</description>
+    </item>
+    
+    <item>
+      <title>Learn Js</title>
+      <link>http://localhost:1313/post/learn-js/</link>
+      <pubDate>Mon, 28 Oct 2019 11:08:14 +0800</pubDate>
+      
+      <guid>http://localhost:1313/post/learn-js/</guid>
+      <description>以问题驱动学习。介绍 JS 基础的书籍实在是太多了，如果再重复一遍并没有多大意义，而且学语言只是手段，手段最终是要做事的，借着实践中遇到的问题去学</description>
     </item>
     
     <item>

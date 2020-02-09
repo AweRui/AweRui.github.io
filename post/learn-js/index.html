@@ -16,7 +16,7 @@
 <meta name="apple-mobile-web-app-status-bar-style" content="#f8f5ec">
 
 
-<meta name="author" content="SaoRui" /><meta name="description" content="JS 为什么要关注它的整体？ 上来不要陷入技术细节，先搞清楚它的历史，它的定位，它解决了什么问题，它自己又有什么问题 学一门语言或技术，最好是先对它" /><meta name="keywords" content="Hugo, theme, even" />
+<meta name="author" content="SaoRui" /><meta name="description" content="以问题驱动学习。介绍 JS 基础的书籍实在是太多了，如果再重复一遍并没有多大意义，而且学语言只是手段，手段最终是要做事的，借着实践中遇到的问题去学" /><meta name="keywords" content="Hugo, theme, even" />
 
 
 
@@ -39,25 +39,25 @@
 
 
 <meta property="og:title" content="Learn Js" />
-<meta property="og:description" content="JS 为什么要关注它的整体？ 上来不要陷入技术细节，先搞清楚它的历史，它的定位，它解决了什么问题，它自己又有什么问题 学一门语言或技术，最好是先对它" />
+<meta property="og:description" content="以问题驱动学习。介绍 JS 基础的书籍实在是太多了，如果再重复一遍并没有多大意义，而且学语言只是手段，手段最终是要做事的，借着实践中遇到的问题去学" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="http://localhost:1313/post/learn-js/" />
 <meta property="article:published_time" content="2019-10-28T11:08:14+08:00" />
 <meta property="article:modified_time" content="2019-10-28T11:08:14+08:00" />
 <meta itemprop="name" content="Learn Js">
-<meta itemprop="description" content="JS 为什么要关注它的整体？ 上来不要陷入技术细节，先搞清楚它的历史，它的定位，它解决了什么问题，它自己又有什么问题 学一门语言或技术，最好是先对它">
+<meta itemprop="description" content="以问题驱动学习。介绍 JS 基础的书籍实在是太多了，如果再重复一遍并没有多大意义，而且学语言只是手段，手段最终是要做事的，借着实践中遇到的问题去学">
 
 
 <meta itemprop="datePublished" content="2019-10-28T11:08:14&#43;08:00" />
 <meta itemprop="dateModified" content="2019-10-28T11:08:14&#43;08:00" />
-<meta itemprop="wordCount" content="501">
+<meta itemprop="wordCount" content="237">
 
 
 
 <meta itemprop="keywords" content="" />
 <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Learn Js"/>
-<meta name="twitter:description" content="JS 为什么要关注它的整体？ 上来不要陷入技术细节，先搞清楚它的历史，它的定位，它解决了什么问题，它自己又有什么问题 学一门语言或技术，最好是先对它"/>
+<meta name="twitter:description" content="以问题驱动学习。介绍 JS 基础的书籍实在是太多了，如果再重复一遍并没有多大意义，而且学语言只是手段，手段最终是要做事的，借着实践中遇到的问题去学"/>
 
 <!--[if lte IE 9]>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
@@ -134,20 +134,7 @@
   <div class="post-toc-content always-active">
     <nav id="TableOfContents">
 <ul>
-<li><a href="#js">JS</a>
-<ul>
-<li><a href="#为什么要关注它的整体">为什么要关注它的整体？</a></li>
-<li><a href="#我们都觉得-this-比较乱-那么老问题来了-为什么要这么设计呢">我们都觉得 this 比较乱，那么老问题来了，为什么要这么设计呢？</a></li>
-<li><a href="#如何理解-js-中的一切皆对象">如何理解 JS 中的一切皆对象</a></li>
-<li><a href="#结构化编程">结构化编程</a></li>
-<li><a href="#面向对象编程">面向对象编程</a></li>
-<li><a href="#动态语言">动态语言</a></li>
-<li><a href="#函数式语言">函数式语言</a></li>
-<li><a href="#并行语言">并行语言</a></li>
-<li><a href="#深入理解">深入理解</a></li>
-<li><a href="#待整理的概念">待整理的概念</a></li>
-</ul></li>
-<li><a href="#node-js">node.js</a></li>
+<li><a href="#深浅拷贝">深浅拷贝</a></li>
 </ul>
 </nav>
   </div>
@@ -155,47 +142,13 @@
     <div class="post-content">
       
 
-<h1 id="js">JS</h1>
+<p>以问题驱动学习。介绍 JS 基础的书籍实在是太多了，如果再重复一遍并没有多大意义，而且学语言只是手段，手段最终是要做事的，借着实践中遇到的问题去学习往往更有指导意义。</p>
 
-<h2 id="为什么要关注它的整体">为什么要关注它的整体？</h2>
+<h1 id="深浅拷贝">深浅拷贝</h1>
 
-<p>上来不要陷入技术细节，先搞清楚它的历史，它的定位，它解决了什么问题，它自己又有什么问题</p>
+<p>这个问题原来没意识到，上手就开始写了，结果使用数组的循环过程中发现结果不对，直接定义变量去赋值导致原数组也被改变了，一想估计是没有把要操作的数组拷贝出来一份导致的，好吧，那就拷贝一份吧。</p>
 
-<p>学一门语言或技术，最好是先对它有个整体的了解，这样才不会走弯路，才知道自己努力的方向对不对</p>
-
-<p>过早地陷入技术细节，只会让自己脑子一片混乱，学不到关键</p>
-
-<h2 id="我们都觉得-this-比较乱-那么老问题来了-为什么要这么设计呢">我们都觉得 this 比较乱，那么老问题来了，为什么要这么设计呢？</h2>
-
-<p>原因和 JS 里面对象的数据结构有关，因为在 JS 里一切皆对象，所以函数经常是放在一个对象里，作为对象属性的值来存储的，并且这个值是一个地址，在使用时会先查找到这个对象的地址，再从这个地址里面找到原始的对象并返回这个属性的值，而函数是作为属性的值来保存的，在保存时就是一个地址，所以函数可以在不同的上下文去执行，但不同上下文有不同的环境，你的 name 和我的 name 不一样，那如何来表示这个东西呢，这时就需要 this 了，它的设计目的就是在函数体的内部去指代函数被调用时的环境，以此来实现在不同的环境中去处理同一个表达</p>
-
-<h2 id="如何理解-js-中的一切皆对象">如何理解 JS 中的一切皆对象</h2>
-
-<h2 id="结构化编程">结构化编程</h2>
-
-<h2 id="面向对象编程">面向对象编程</h2>
-
-<h2 id="动态语言">动态语言</h2>
-
-<h2 id="函数式语言">函数式语言</h2>
-
-<h2 id="并行语言">并行语言</h2>
-
-<h2 id="深入理解">深入理解</h2>
-
-<ul>
-<li>表达式：在 JS 中，一切表达式运算的终极目的都是为了得到一个值，然后再用另外一些操作将这个值输出出来</li>
-</ul>
-
-<h2 id="待整理的概念">待整理的概念</h2>
-
-<ul>
-<li>[] 表达式</li>
-<li>[] 引用</li>
-<li>[x]</li>
-</ul>
-
-<h1 id="node-js">node.js</h1>
+<p>在 ES6 里拷贝数组还是挺简单的，有很多简便的方法可以用，如使用 concat() 函数，或利用对数组的解构赋值把被拷贝数组的每一项都拷贝出来，</p>
 
     </div>
 
@@ -265,7 +218,7 @@
   <span class="copyright-year">
     &copy; 
     2017 - 
-    2019
+    2020
     <span class="heart">
       <i class="iconfont icon-heart"></i>
     </span>
