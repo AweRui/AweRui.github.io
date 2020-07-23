@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>SaoRui&#39;s Blog</title>
+    <title>RuiRui&#39;s Blog</title>
     <link>http://localhost:1313/</link>
-    <description>Recent content on SaoRui&#39;s Blog</description>
+    <description>Recent content on RuiRui&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Sat, 28 Dec 2019 17:34:49 +0800</lastBuildDate>
@@ -17,7 +17,7 @@
       <pubDate>Sat, 28 Dec 2019 17:34:49 +0800</pubDate>
       
       <guid>http://localhost:1313/post/why-to-write-blog/</guid>
-      <description>为什么写博客呢？ 说个大实话，我们当中的大多数人都是普通人，可能过完一辈子也做不出什么能让人们记住的事，最终是轻飘飘来，轻飘飘去，在这世界留不</description>
+      <description>为什么写博客呢？ 或者换个说法，一个注定没多少人看的东西为什么要花精力维护呢？ 年少时谁还不觉得自己是个牛逼人物呢？ 只是随着时间的流逝，大多数人</description>
     </item>
     
     <item>
